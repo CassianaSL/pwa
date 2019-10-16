@@ -12,7 +12,6 @@ self.addEventListener('install', function(event) {
           '/quindim.jpg',
           '/register.js',
           '/style.css',
-          '/sw.js',
           '/app-images/manifest.json'
         ]);
       })
