@@ -6,8 +6,8 @@ self.addEventListener('install', function (event) {
       return cache.add([
         '/',
         '/index.html',
-        '/install.js',
         '/quindim.jpg',
+        '/register.js',
         '/style.css',
         '/sw.js'
       ]);
