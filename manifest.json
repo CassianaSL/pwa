@@ -1,11 +1,11 @@
 {
-  "name": "Quindinhoss",
-  "short_name": "Quindim",
-  "theme_color": "#f3d821",
-  "background_color": "#f3d821",
+  "name": "Book Lover",
+  "short_name": "BookLover",
+  "theme_color": "#ff5400",
+  "background_color": "#2196f3",
   "display": "fullscreen",
   "Scope": "/",
-  "start_url": "/pwa",
+  "start_url": "/",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
