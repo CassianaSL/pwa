@@ -17,7 +17,8 @@ self.addEventListener("install", function (event) {
         './index.html',
         './manifest.json',
         './sw.js',
-        './livros-amor.jpg');
+        './livros-amor.jpg',
+        './register.js');
       }
 
       return cache.add(offlineFallbackPage);
@@ -34,8 +35,7 @@ self.addEventListener("fetch", function (event) {
       // The following validates that the request was for a navigation to a new document
       if (
         event.request.destination !== "document" ||
-        event.request.mode !== "navigate"
-      ) {
+        event.request.mode !== "navigate") {
         return;
       }
 
